@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 
-/* GRID LAYOUT FOR WEBSITE */
+/* GRID LAYOUT FOR WEBSITE Phone Stars */
 .main-container{
     width: 100vw;
     height: 100vh;
@@ -188,6 +188,7 @@ ul.login-register li a{
 .active, .nav-bar nav ul li a:hover{
     border-bottom: 3px solid #E11A21;
     padding-bottom: 5px;
+    
 }
 
 .nav-bar nav ul li:hover ul{
@@ -265,7 +266,7 @@ ul.login-register li a{
     margin-left: 150px;
 }
 
-/* MOBILES */
+/* MOBILES PAGE*/
 
 .main-content aside{
     border: 1px solid #e5e5e5;
@@ -322,8 +323,12 @@ ul.login-register li a{
     margin-left: 40px;
 }
 
+.main-content ul.phonebrands li a.active-brand{
+    color: #000000;
+}
 
-/* mobile-products */
+
+/* Mobile Page - Mobile-products */
 
 
 div.mobile-container aside#second-row{
@@ -410,6 +415,8 @@ div.mobile-container aside#second-row{
 
 
 
+
+
 /* FOOTER */
 
 .footer {
@@ -421,8 +428,6 @@ div.mobile-container aside#second-row{
     color: #f1f1f1;
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
-    padding: 20px;
-   
 }
 
 
