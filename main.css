@@ -497,6 +497,10 @@ div.product-content .details-container h1{
     height: auto;
 }
 
+div.details-container ul li{
+    font-size: 18px;
+}
+
 
 /* FOOTER */
 
