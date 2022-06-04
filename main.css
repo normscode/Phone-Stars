@@ -415,8 +415,87 @@ div.mobile-container aside#second-row{
 
 
 /* Product Content Layout */
+div.product-content{
+    display: flex;
+}
 
+div.product-content .image-container{
+    margin: 100px auto auto 200px;
+}
 
+div.product-content .details-container{
+    margin: 50px auto auto 150px;
+}
+
+/* Image SLIDER*/
+#featured{
+	width: 550px;
+	height: 600px;
+	object-fit: cover;
+	cursor: pointer;
+	border: 2px solid black;
+}
+
+div.product-content .thumbnail{
+	object-fit: cover;
+	max-width: 180px;
+	max-height: 100px;
+	cursor: pointer;
+	opacity: 0.5;
+	margin: 5px;
+	border: 2px solid black;
+}
+
+div.product-content .thumbnail:hover{
+	opacity:1;
+}
+
+div.product-content .activephoto{
+    opacity: 1;
+}
+
+div.product-content #slide-wrapper{
+    max-width: 500px;
+	display: flex;
+	min-height: 100px;
+	align-items: center;
+}
+
+div.product-content .product-details .product-name{
+    margin: 20px auto auto 200px;
+    width: 300px;
+    text-align: center;
+}
+
+div.product-content #slider{
+	width: 440px;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+    overflow: hidden;
+
+}
+
+div.product-content .arrow{
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: .3s;
+}
+
+div.product-content .arrow:hover{
+	opacity: .5;
+	width: 35px;
+	height: 35px;
+}
+
+/*Product Details*/
+
+div.product-content .details-container h1{
+    width: 500px;
+    font-size: 30px;
+    height: auto;
+}
 
 
 /* FOOTER */
