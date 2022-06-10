@@ -502,6 +502,18 @@ div.details-container ul li{
     font-weight: lighter;
 }
 
+/*Add to Cart*/
+div.details-container .wrapper-addcart{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+div.details-container .wrapper-addcart p, .btn, .addToCart{
+    margin-right: 10px ;
+}
+
+
 
 /* FOOTER */
 

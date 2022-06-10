@@ -24,3 +24,18 @@ buttonRight.addEventListener('click', function(){
     document.getElementById('slider').scrollLeft += 180;
 
 })
+
+let btn = document.querySelector('.mainBtn');
+let mbtn = document.querySelector('.minusBtn');
+let pbtn = document.querySelector('.plusBtn');
+
+
+
+mbtn.addEventListener("click", ()=>{
+    if(btn.innerHTML != 0){
+        btn.innerHTML = btn.innerHTML - 1;
+    }
+})
+pbtn.addEventListener("click", ()=>{
+    btn.innerHTML = +(btn.innerHTML) + +1;
+})
