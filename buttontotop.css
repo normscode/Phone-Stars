@@ -21,3 +21,7 @@ div.main-container .to-top.activescroll{
     pointer-events: auto;
     opacity: 1;
 }
+
+html{
+    scroll-behavior: smooth;
+}
