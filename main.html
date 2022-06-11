@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="buttontotop.css">
+    <link rel="stylesheet" type="text/css" href="promos.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
     <title>Phone Stars</title>
     <link rel="icon" href="img/logo1.png" type="image/x-icon">
@@ -82,15 +83,40 @@
 
         <div class="main-content">
             <div class="cover-video">
-                <video controls>
-                    <source src="#" type="video/mp4">
-                    <source src="#" type="video/ogg">
+                <video controls autoplay id="vid">
+                    <source src="video/homevideo.mp4" type="video/mp4">
+                    <source src="video/homevideo.ogg" type="video/ogg">
                   Your browser does not support the video tag.
                   </video> 
             </div>
             <div class="two-image">
-                <img class="img1" src="img/sample.png" alt="this is an image">
-                <img class="img2" src="img/sample.png" alt="this is an image">
+                
+                <div class="wrapper-slider">
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+    
+                            <div class="slide first">
+                                <img src="img/promo-img/promo1.png" style="width: 1060px; height: 350px; margin-left: 205px;" alt="">
+                            </div>
+                            <div class="slide">
+                                <img src="img/promo-img/Promo2.png" style="width: 1060px; height: 350px; margin-left: 205px;" alt="">
+                            </div>
+    
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                            </div>
+                        </div> 
+                        
+                        <div class="navigation-manual">
+                            <label for="radio1" class="manual-btn"></label>
+                            <label for="radio2" class="manual-btn"></label>
+                        </div>
+                    </div>
+
+
             </div> 
 
             <div class="best-sellers">
@@ -164,5 +190,6 @@
     </div> 
     <script src="main.js"></script>
     <script src="buttontotop.js"></script>
+    <script src="promo.js"></script>
 </body>
 </html>

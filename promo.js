@@ -10,7 +10,6 @@
 //     }
 //     setTimeout("slideShow()", 3000);
 // }
-
 // window.onload = slideShow;
 
 var counter = 1;

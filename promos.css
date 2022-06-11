@@ -20,7 +20,7 @@ div.main-content .promo-container .box img{
  div.main-content .wrapper-slider{
     margin-left: 20px;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     margin-right: 20px;
  }
 
@@ -109,3 +109,14 @@ div.main-content .wrapper-slider .slides #radio1:checked ~ .navigation-auto .aut
 div.main-content .wrapper-slider .slides #radio2:checked ~ .navigation-auto .auto-btn2{
     background-color: #40D3DC;
 }
+
+div.main-content .wrapper-promo-grandopening{
+   margin-left: 50px;
+}
+
+div.main-content .wrapper-promo-grandopening img{
+    width: 600px;
+    margin-left: 75px;
+    margin-bottom: 70px;
+ }
+

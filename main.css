@@ -234,10 +234,23 @@ ul.login-register li a{
 }
 
 .main-content .two-image{
-    display: flex;
+    
 }
 
-.main-content .two-image img{
+div.main-content .two-image .box{
+    width: 60%;
+    height: 70%;
+    box-shadow: 0 0 25px -3px rgba(0, 0, 0, 0.4);
+    margin: 50px auto 20px auto;
+}
+
+div.main-content .two-image .box img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .main-content .two-image img{
     width: 505px;
     height: 300px;
     border: 1px solid black;
@@ -247,7 +260,7 @@ ul.login-register li a{
 .main-content .two-image img.img1{
     margin-left: 220px;
     margin-right: 50px;
-}
+} */
 
 /* best sellers */
 .main-content .best-sellers, .new-products{
