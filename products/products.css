@@ -42,7 +42,7 @@ div.product-content .back-button a{
 
 div.product-content .thumbnail{
 	object-fit: contain;
-	max-width: 180px;
+	width: 140px;
 	max-height: 100px;
 	cursor: pointer;
 	opacity: 0.5;
@@ -109,6 +109,15 @@ div.details-container ul li{
 div.details-container .wrapper-addcart .price{
 	color: red;
 	font-size: 30px;
+	margin-bottom: 0;
+}
+
+div.details-container .wrapper-addcart .del{
+	
+	margin-top: 5px;
+	font-weight: lighter;
+	font-size: smaller;
+	opacity:0.5 ;
 }
 
 /*Add to Cart*/
@@ -203,18 +212,18 @@ div.details-container .wrapper-btn-quantity .color-variant.active-color{
 div.main-container .image-cover img{
 	width: 800px;
 	height: 400px;
-	border: 1px solid black;
-	margin-left: 250px;
+	border: 0px solid black;
+	margin-left: 150px;
 	margin-bottom: 50px;
 }
 
 div.product-main-container .fullspectitle{
-	margin-left: 250px;
+	margin-left: 150px;
 }
 
 div.product-main-container .specs{
-	margin-left: 200px;
-	margin-bottom: 20px;
+	margin-left: 150px;
+	margin-bottom: 100px;
 	border: 1px solid black;
 	padding: 10px 5px 10px 5px;
 	width: 1200px;
