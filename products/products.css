@@ -20,17 +20,11 @@ div.product-main-container .product-content .backbutton a{
 	color: black;
 }
 
-
-
 /* Image SLIDER*/
 
 div.product-content .back-button{
     background-color: black;
     color: white;  
-}
-
-div.product-content .round{
-    
 }
 
 div.product-content .back-button a{
@@ -112,11 +106,13 @@ div.details-container ul li{
     font-weight: lighter;
 }
 
-/*Add to Cart*/
-div.details-container .wrapper-addcart{
-    
-    
+div.details-container .wrapper-addcart .price{
+	color: red;
+	font-size: 30px;
 }
+
+/*Add to Cart*/
+
 
 div.details-container .wrapper-btn-quantity{
 	display: flex;
@@ -200,16 +196,9 @@ div.details-container .wrapper-btn-quantity .color-variant.active-color{
 }
 
 
-
-
-
-
-
 /* Image Cover */
 
-div.main-container .image-cover{
 
-}
 
 div.main-container .image-cover img{
 	width: 800px;
