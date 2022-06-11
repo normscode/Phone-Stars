@@ -32,10 +32,26 @@ let pbtn = document.querySelector('.plusBtn');
 
 
 mbtn.addEventListener("click", ()=>{
-    if(btn.innerHTML != 0){
+    if(btn.innerHTML != 1){
         btn.innerHTML = btn.innerHTML - 1;
     }
 })
 pbtn.addEventListener("click", ()=>{
     btn.innerHTML = +(btn.innerHTML) + +1;
 })
+
+
+var links = document.querySelectorAll(".wrapper-btn-quantity div");
+
+links.forEach(div =>{
+    div.addEventListener('click',()=>{
+        resetLinks();
+        div.classList.add('active-color');
+    })
+})
+
+function resetLinks(){
+    links.forEach(div =>{
+        div.classList.remove("active-color");
+    })
+}
