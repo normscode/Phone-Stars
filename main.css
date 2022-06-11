@@ -268,12 +268,43 @@ div.main-content .two-image .box img{
 
 }
 
-.main-content .best-sellers img, .new-products img{
+.main-content .best-sellers{
+    margin-left: 40px;
+
+}
+
+.main-content .new-products{
+    margin-left: 40px;
+
+}
+
+.main-content .best-sellers .image, .new-products .image{
     width: 300px;
     height: 200px;
     border: 1px solid black;
     margin-bottom: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+    margin-left: 20px;
 }
+
+.main-content .best-sellers .arrow{
+    width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: .3s;
+    margin-top: 80px;
+}
+
+.main-content .new-products .arrow{
+    width: 30px;
+	height: 30px;
+	cursor: pointer;
+	transition: .3s;
+    margin-top: 80px;
+}
+
+
 
 .main-content .best-sellers img.img1, .new-products img.img1{
     margin-left: 150px;
