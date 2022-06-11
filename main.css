@@ -355,6 +355,7 @@ div.mobile-container aside#second-row{
     width: 100%;
     width: 230.4px;
     height: 230.4px;  
+    object-fit: contain;
 }
 
 .products div.title {
