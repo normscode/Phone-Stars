@@ -210,11 +210,13 @@ div.details-container .wrapper-btn-quantity .color-variant.active-color{
 
 
 div.main-container .image-cover img{
-	width: 800px;
-	height: 400px;
+	/* width: 800px;
+	height: 400px; */
 	border: 0px solid black;
-	margin-left: 150px;
+	margin-left: 100px;
 	margin-bottom: 50px;
+	
+
 }
 
 div.product-main-container .fullspectitle{
