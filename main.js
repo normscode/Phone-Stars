@@ -46,3 +46,4 @@ for (var i = 0; i < elements.length; i++) {
 //     document.getElementsByClassName('slider').scrollLeft += 180;
 
 // })
+

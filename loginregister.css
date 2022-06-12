@@ -1,0 +1,122 @@
+div.main-content .logres-wrapper{
+    height: 530px;
+    display: flex;
+}
+
+.logres-wrapper .login-container{
+    height: 450px;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 0;
+}
+
+.logres-wrapper .login-container .uppercase{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.login-container label{
+    font-size: 14px; 
+}
+
+.login-container input{
+    width: 492px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.login-container .checkbox input{
+    width: 15px;
+    height: 15px;
+}
+
+.login-container .checkbox input span{
+    font-weight: bold;
+}
+
+.login-container .loginbtn{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: .1em;
+}
+
+.login-container .lostpassword{
+    color: rgb(255, 113, 113);
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.login-container .lostpassword a{
+    text-decoration: none;
+    color: rgb(255, 113, 113);
+}
+
+
+
+/* Divider */
+.logres-wrapper hr{
+    height: 400px;
+    margin-top: 35px;
+    opacity: .5;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logres-wrapper .register-container{
+    height: 450px;
+    width: 700px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding-right: 220px;
+}
+
+.logres-wrapper .register-container .uppercase{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+.register-container p{
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.register-container label{
+    font-size: 16px; 
+}
+
+.register-container input{
+    width: 492px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.register-container .smallp{
+   font-size: 13px;
+}
+
+.register-container .smallp span{
+    color: rgb(255, 113, 113);
+ }
+
+ .register-container .registerbtn{
+    width: 110px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: .1em;
+}
+

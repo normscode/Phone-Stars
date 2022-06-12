@@ -20,3 +20,14 @@ setInterval(function(){
         counter = 1;
     }
 }, 5000);
+
+
+const loginBtn = document.getElementsByClassName('loginbtn');
+const registerBtn = document.getElementsByClassName('registerbtn');
+loginBtn[0].addEventListener('click', () =>{
+    alert("Login Successfully!");
+})
+
+registerBtn[0].addEventListener('click', ()=>{
+    alert("Email has been sent!")
+})

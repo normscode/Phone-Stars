@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" type="text/css" href="buttontotop.css">
     <link rel="stylesheet" type="text/css" href="promos.css">
+    <link rel="stylesheet" type="text/css" href="loginregister.css">
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
     <title>Phone Stars</title>
     <link rel="icon" href="img/logo1.png" type="image/x-icon">
@@ -62,7 +63,7 @@
         <div class="nav-bar">
             <nav>
                 <ul>
-                    <li><a class="active" href="main.html">Home</a></li>
+                    <li><a href="main.html">Home</a></li>
                     <li><a href="mobiles.html">Mobiles</a></li>
                     <li><a href="promos.html">Promos</a></li>
                     <li><a href="about-us.html">About Us</a></li>
@@ -82,7 +83,33 @@
         </div>
 
         <div class="main-content">
-            
+            <div class="logres-wrapper">
+                <div class="login-container">
+                    <h3 class="uppercase">Login</h3>
+                    <label for="username">Username or email address <span class="required">*</span></label><br>
+                    <input type="text" name="username" id="username" autocomplete="username" value><br>
+                    <label for="password">Password<span class="required">*</span></label><br>
+                    <input type="password" name="password" id="password" autocomplete="password" value>
+                    <br>
+                    <label class="checkbox">
+                        <input class="" name="rememberme" type="checkbox" id="rememberme" value="forever">
+                        <span>Remember me</span>
+                    </label><br>
+                    <a href="#"><button class="loginbtn">log in</button></a>
+                    <p class="lostpassword"><a href="#">Lost your password?</a></p>
+                </div>
+                <hr>
+                <div class="register-container">
+                    <h3 class="uppercase">Register</h3>
+                    <p>By creating an account with our website, you will be able to move through the checkout page, store multiple shipping addresses, view and track your orders in your account and more.</p>
+                    <p>You can also Login / Registered account using Facebook or Gmail account above.</p>
+                    <label for="email">Email Address<span class="required">*</span></label><br>
+                    <input type="text" name="email" id="email" autocomplete="email" value><br>
+                    <p>A password will be sent to your email address.</p>
+                    <p class="smallp">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <span>privacy policy</span></p>
+                    <a href="#"><button class="registerbtn">register</button></a>
+                </div>
+            </div>
         </div>
        
         <div class="footer">
