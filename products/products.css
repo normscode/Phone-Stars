@@ -42,7 +42,7 @@ div.product-content .back-button a{
 
 div.product-content .thumbnail{
 	object-fit: contain;
-	width: 140px;
+	min-width: 140px;
 	max-height: 100px;
 	cursor: pointer;
 	opacity: 0.5;
