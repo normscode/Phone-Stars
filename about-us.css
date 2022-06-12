@@ -1,0 +1,161 @@
+div.main-content .aboutus-wrapper{
+    margin: 20px;
+    padding: 20px 100px 20px 100px;
+   
+}
+
+.aboutus-wrapper .title{
+    font-size: 20px;
+}
+
+.aboutus-wrapper hr{
+    
+}
+
+.aboutus-wrapper .aboutus-container-black{
+    width: 1250px;
+    height: 500px;
+    
+    padding: 20px 20px 20px 30px;
+    display: flex;
+    background-color: black;
+    
+}
+
+.aboutus-container-black .paragraph-container{
+    
+    width: 600px;
+    padding-right: 20px;
+    padding: 20px;
+}
+
+.aboutus-container-black .paragraph-container p{
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 30px;
+    text-align: justify;
+    line-height: 1.2em;
+}
+
+.aboutus-container-black .company-image{
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.aboutus-wrapper .ourprofile-container{
+    margin-bottom: 50px;
+}
+
+.aboutus-wrapper .ourprofile-container h3{
+    text-align: center;
+}
+
+.ourprofile-container .profile-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+
+.ourprofile-container .profile-container .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height: 440px;
+}
+
+.ourprofile-container .profile-container .title{
+    color: grey;
+    font-size: 18px; 
+}
+
+.ourprofile-container .profile-container button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.ourprofile-container .profile-container a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.ourprofile-container .profile-container button:hover, a:hover{
+    opacity: 0.7;
+}
+
+.aboutus-wrapper .misvis-container{
+   
+    width: 1292px;
+    height: 400px;
+    display: flex;
+    background-color: #E4E4E4;
+}
+
+.aboutus-wrapper .misvis-container .misvis-card{
+    margin: auto;
+    height: 300px;
+    width: 580px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.aboutus-wrapper .misvis-container .misvis-card:hover{
+    transform: translateX(0px) translateY(-15px);
+    transition: transform 500ms ease-in-out 25ms;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .5);
+}
+
+.misvis-container .misvis-card .card-title{
+    width: 550px;
+    margin: auto;
+    height: 80px;
+    background-color: #F7F7F7;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.misvis-container .misvis-card .card-title h4{
+   margin-top: 10px;
+   font-weight: 500;
+   letter-spacing: .1em;
+   text-transform: uppercase;
+}
+
+
+.misvis-container .misvis-card .card-des{
+   
+    width: 550px;
+    margin: auto;
+    height: 190px;
+   
+    background-color: white;
+}
+
+.misvis-container .misvis-card p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
