@@ -22,6 +22,7 @@ setInterval(function(){
 }, 5000);
 
 
+/*Login and Register Page Script */
 const loginBtn = document.getElementsByClassName('loginbtn');
 const registerBtn = document.getElementsByClassName('registerbtn');
 loginBtn[0].addEventListener('click', () =>{

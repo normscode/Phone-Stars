@@ -63,3 +63,9 @@ addtocart[0].addEventListener('click', ()=>{
     cartquantity +=1;
     alert("Added to Cart!");
 })
+
+// const backbtn = document.getElementsByClassName('backbutton').querySelectorAll('i');
+
+// backbtn.addEventListener('click', ()=>{
+//     history.back();
+// })
