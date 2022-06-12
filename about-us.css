@@ -143,6 +143,7 @@ div.main-content .aboutus-wrapper{
     margin: auto;
     height: 190px;
     background-color: white;
+    text-align: justify;
 }
 
 .misvis-container .misvis-card p{
