@@ -399,6 +399,10 @@ div.mobile-container aside#second-row{
    border: none;
 }
 
+div.mobile-container{
+    margin-bottom: 100px;
+ }
+
 .main-content div.products{
     margin: 70px 20px 15px 40px;
     width: 15%;
