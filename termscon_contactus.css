@@ -1,0 +1,28 @@
+div.main-content .wrapper-tc{
+    margin: 50px auto 20px auto;
+    width: 1100px;
+    height: auto;
+}
+
+.wrapper-tc .tc-title{
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.wrapper-tc p{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 0;
+    text-align: justify;
+}
+
+.wrapper-tc .title-order h4{
+    margin: 0;
+}
+
+
