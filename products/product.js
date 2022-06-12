@@ -55,3 +55,11 @@ function resetLinks(){
         div.classList.remove("active-color");
     })
 }
+
+const addtocart = document.getElementsByClassName('addToCart');
+var cartquantity = 0;
+
+addtocart[0].addEventListener('click', ()=>{
+    cartquantity +=1;
+    alert("Added to Cart!");
+})
