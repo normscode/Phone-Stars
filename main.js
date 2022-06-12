@@ -20,16 +20,29 @@ for (var i = 0; i < elements.length; i++) {
     elements[i].addEventListener('click', myFunction, false);
 }
 
-var images =['img/promo-img/promo1.png', 'img/promo-img/promo2.png'];
-var i=0;
-function slideShow() {
-    document.getElementById("image").src=images[i];
+// var images =['img/promo-img/promo1.png', 'img/promo-img/promo2.png'];
+// var i=0;
+// function slideShow() {
+//     document.getElementById("image").src=images[i];
 
-    if(i < images.length-1){
-        i++;
-    }else{
-        i=0;
-    }
-    setTimeout("slideShow()", 3000);
-}
-window.onload = slideShow;
+//     if(i < images.length-1){
+//         i++;
+//     }else{
+//         i=0;
+//     }
+//     setTimeout("slideShow()", 3000);
+// }
+// window.onload = slideShow;
+
+// let rightbtn = document.getElementById('right-slide');
+// let leftbtn = document.getElementById('left-slide');
+
+// leftbtn.addEventListener('click', function(){
+//     document.getElementsByClassName('slider').scrollLeft -= 150;
+    
+// })
+
+// rightbtn.addEventListener('click', function(){
+//     document.getElementsByClassName('slider').scrollLeft += 180;
+
+// })
