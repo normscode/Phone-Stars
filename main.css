@@ -233,7 +233,7 @@ ul.login-register li a{
     margin-bottom: 40px;
 }
 
-.main-content .two-image{
+/* .main-content .two-image{
     
 }
 
@@ -247,7 +247,7 @@ div.main-content .two-image .box{
 div.main-content .two-image .box img{
     width: 100%;
     height: 100%;
-}
+} */
 
 
 /* .main-content .two-image img{
@@ -267,8 +267,15 @@ div.main-content .two-image .box img{
     text-align: center;
     text-transform: uppercase;
     width: 200px;
-    margin: 20px auto 50px auto;
+    margin: 20px auto 10px auto;
     padding: 10px;
+    font-size: 24px;
+    color: red;
+}
+
+.main-content .bs-divider{
+    margin-bottom: 20px;
+    width: 1395px;
 }
 
 .main-content .best-sellers, .new-products{
@@ -282,7 +289,7 @@ div.main-content .two-image .box img{
 	min-height: 200px;
 	align-items: center;
     margin: auto;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
 }
 
 .main-content .best-sellers{
@@ -560,7 +567,15 @@ div.mobile-container{
 }
 
 
-
+/* For Disclaimer Page */
+.main-content .dis-wrapper{
+    height: 300px;
+    width: 1000px;
+    border: 1px solid black;
+    margin: 50px auto 20px auto;
+    padding: 20px;
+    display: flex;
+}
 
 /* FOOTER */
 
