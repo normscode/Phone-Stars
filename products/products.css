@@ -148,6 +148,10 @@ div.details-container .minusBtn, .plusBtn, .mainBtn{
 	border: none;
 }
 
+div.details-container .minusBtn:hover, .plusBtn:hover{
+	background-color: rgb(197, 193, 193);
+}
+
 div.details-container .addToCart, .buyNow{
 	padding: 10px;
 	width: 150px;
