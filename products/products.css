@@ -128,6 +128,11 @@ div.details-container .wrapper-btn-quantity{
 	align-items: center;
 }
 
+div.details-container .wrapper-btn{
+	display: flex;
+	align-items: center;
+}
+
 div.details-container .wrapper-addcart p, .btn, .addToCart{
     margin-right: 10px ;
 }

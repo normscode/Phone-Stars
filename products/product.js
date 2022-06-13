@@ -52,7 +52,7 @@ links.forEach(div =>{
 
 function resetLinks(){
     links.forEach(div =>{
-        div.classList.remove("active-color");
+        div.classList.remove("active-color");   
     })
 }
 
